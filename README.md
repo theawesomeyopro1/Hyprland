@@ -1,6 +1,6 @@
 <div align = center>
 
-<img src="https://raw.githubusercontent.com/vaxerski/Hyprland/main/assets/header.svg" width="750" height="300" alt="banner">
+<img src="https://raw.githubusercontent.com/theawesomeyopro/Hyprland/main/assets/header.svg" width="750" height="300" alt="banner">
 
 <br>
 
@@ -142,3 +142,13 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 [Badge License]: https://img.shields.io/github/license/hyprwm/Hyprland
 [Badge Lines]: https://img.shields.io/tokei/lines/github/hyprwm/Hyprland
 [Badge Hi Mom]: https://img.shields.io/badge/Hi-mom!-ff69b4
+
+### How to install hyprland
+Arch linux: yay -Sy hyprland
+# Compile from source
+Installing the dependancesyay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio tomlplusplus hyprlang hyprcursor hyprwayland-scanner xcb-util-errors
+
+# Building Hyprland
+git clone --recursive https://github.com/hyprwm/Hyprland
+cd Hyprland
+make all && sudo make install
