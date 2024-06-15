@@ -158,5 +158,5 @@ cd Hyprland
 <br>
 make all && sudo make install
 <br/>
-cd Hyprland /n
+cd Hyprland
 make all && sudo make install
