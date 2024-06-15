@@ -143,12 +143,13 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 [Badge Lines]: https://img.shields.io/tokei/lines/github/hyprwm/Hyprland
 [Badge Hi Mom]: https://img.shields.io/badge/Hi-mom!-ff69b4
 
-### How to install hyprland
+# How to install hyprland
 Arch linux: yay -Sy hyprland
-# Compile from source
-Installing the dependancesyay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio tomlplusplus hyprlang hyprcursor hyprwayland-scanner xcb-util-errors
+### Compile from source
+Installing the dependances:
+yay -S gdb ninja gcc cmake meson libxcb xcb-proto xcb-util xcb-util-keysyms libxfixes libx11 libxcomposite xorg-xinput libxrender pixman wayland-protocols cairo pango seatd libxkbcommon xcb-util-wm xorg-xwayland libinput libliftoff libdisplay-info cpio tomlplusplus hyprlang hyprcursor hyprwayland-scanner xcb-util-errors
 
-# Building Hyprland
+### Building Hyprland
 <br>
 git clone --recursive https://github.com/theawesomeyopro1/Hyprland
 <br/>
